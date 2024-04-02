@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/256/4656/4656727.png" type="image/png">
+    <link rel="stylesheet" href="medicamento.css" type="text/css">
+    <title>Medicamentos</title>
+</head>
+<body>
+
+    <br>
+
+    <div id="home">
+    <button onclick="window.location.href='buttons.html'">🏠HOME</button> <br><br>
+</div>
+    <div id="titulo2">
+    <h1>Medicamentos</h1>
+    </div>
+
+    <div class="bt-container2">
+    <form id="medicamento-form">       
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome" required>
+
+    <label for="fabricante">Fabricante:</label>
+    <input type="text" id="fabricante" required>
+
+    <label for="preco">Preço:</label>
+    <input type="text" id="preco" required>
+
+    <label for="quantidade">Quantidade:</label>
+    <input type="text" id="quantidade" required>
+
+    &nbsp; &nbsp;<button type="submit">Cadastrar usuários</button>
+    </form>
+    </div>
+
+    <h1>Lista de Medicamentos</h1>
+    <ul id="medicamento-list"></ul>
+    <script src="medicamento.js"></script>
+
+</body>
+</html>

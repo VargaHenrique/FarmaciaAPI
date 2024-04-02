@@ -1,0 +1,74 @@
+html {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100%;
+    position:fixed;
+    padding-bottom: 3rem;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,45,45,1) 100%);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+#titulo{
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+    color:linen;
+}
+
+
+.bt-container { 
+    display:table-column;
+    text-align: center;
+    position: fixed;
+    top: 60%;
+    left: 50%; /* Ajuste a porcentagem conforme necessário */
+    transform: translate(-50%, -60%); /* Mantém o mesmo valor de -60% para o eixo Y */
+    margin-top: -3%;
+}
+
+
+.bt-container button {
+   position: relative;
+   border: 0;
+   padding: 10px;
+   width: 200px;
+   height: 50px;
+   display: inline-block;
+   margin: 10px;
+   cursor: pointer;
+   border-radius: 4px;  
+   margin-top: 10%;
+   
+  
+   transition-duration: 0.3s;
+   box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+
+}
+
+.bt-container button:hover {
+    background-color:deepskyblue;
+}
+
+
+/*Layout responsivo*/
+@media screen and (max-width: 480px) {
+    .box {
+      width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .box {
+      width: 45%;
+      
+    }
+}
+

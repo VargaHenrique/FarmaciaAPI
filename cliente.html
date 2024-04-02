@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/256/4656/4656727.png" type="image/png">
+    <link rel="stylesheet" href="cliente.css" type="text/css">
+
+    <title>Clientes</title>
+</head>
+<body>
+
+    <br>
+
+    <button onclick="window.location.href='buttons.html'">🏠HOME</button> <br><br>
+
+    <h1>Formulario de cadastro dos clientes</h1>
+
+   
+    <form id2 ="cliente-form">
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome" required>
+
+    <label for="endereco">Endereço:</label>
+    <input type="text" id="endereco" required>
+
+    <label for="email">Email:</label>
+    <input type="text" id="email" required>
+
+    <label for="telefone">Telefone:</label>
+    <input type="text" id="telefone" required>
+    </form>
+
+    <br>
+    <button type="submit">Cadastrar usuários</button>
+
+
+    <h1>Lista de Clientes</h1>
+    <ul id="cliente-list"></ul>
+    <script src="cliente.js"></script>
+
+</body>
+</html>

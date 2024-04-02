@@ -1,0 +1,55 @@
+{
+  "Medicamento": [
+    {
+      "id": 1,
+      "nome": "Canabis",
+      "fabricante": "Johnson & Johnson",
+      "preco": 34,
+      "quantidade": 1
+    },
+    
+      {
+        "id": 2,
+        "nome": "Mary-Juana",
+        "fabricante": "Johnson & Johnson",
+        "preco": 34,
+        "quantidade": 4
+      },
+    
+      {
+        "id": 2,
+        "nome": "Mary-Juana",
+        "fabricante": "Johnson & Johnson",
+        "preco": 34,
+        "quantidade": 4
+      }  
+  ],
+  
+  "Cliente": [
+    {
+      "id": 2,
+      "nome": "Kurt Cobain",
+      "endereco": "Seattle",
+      "email": "nirvana@gmail.com",
+      "telefone": "(51) 123456789"
+    }
+  ],
+
+  "Fornecedor": [
+    {
+      "id": 3,
+      "nome": "Slash",
+      "endereco": "California",
+      "telefone": "(51) 6666666666"
+    }
+  ],
+  
+  "Venda": [
+    {
+      "id": 4,
+      "data": "16/01/1993",
+      "cliente_id": 2,
+      "medicamento_id": 3
+    }
+  ]
+}
